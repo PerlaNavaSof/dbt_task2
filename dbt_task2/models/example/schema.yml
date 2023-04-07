@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: fact_tables
+
+sources:
+  - name: src_sal
+    database: DBT_COURSE
+    schema: DBT
+    tables:
+      - name: SRC_SALES
